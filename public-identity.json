@@ -1,0 +1,8 @@
+{
+  "project": "Mitsumata FLOP Agent",
+  "algorithm": "Ed25519",
+  "did": "did:key:z6MkuyavrLgHsBU4uuXEUWxxoWeKcVW4qsfPnVaVCvx4QM7d",
+  "public_key_hex": "e6a4148462a47ee81df4754e29c923da5b74d45f853d3bd17f443f8e98f13b38",
+  "created_on": "2026-09-20",
+  "technocore_introduction": "not_posted"
+}

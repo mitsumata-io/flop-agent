@@ -9,11 +9,11 @@ Mitsumata is starting a new repository for FLOP research and agent development. 
 | Local project scaffold | Prepared |
 | GitHub account | `mitsumata-io`, administered by Mitsumata's operator; personal account type |
 | Remote repository | [mitsumata-io/flop-agent](https://github.com/mitsumata-io/flop-agent), created for this fresh start |
-| New signing identity | Pending user-controlled local generation |
+| New signing identity | Created locally; public DID and Ed25519 public key published in this repository; public-key encoding verified |
 | Public Technocore introduction | Not posted |
 | Agent implementation | Not started |
 | Verified FLOP reward allocation | None established by this review |
-| Prior EvolPolf project | Retirement requested; remote retirement not yet executed |
+| Prior EvolPolf project | GitHub repository archived with a retirement notice; website made private; remaining service retirement in progress |
 
 ## Next substantive decision
 

@@ -15,7 +15,13 @@ Company: [Mitsumata](https://mitsumata.io).
 
 ## Identity
 
-Mitsumata is preparing a dedicated Technocore signing identity. Its public DID will be published here after local creation and verification. No private signing material belongs in this repository.
+Mitsumata's dedicated Technocore signing identity was created locally on 20 September 2026:
+
+```text
+did:key:z6MkuyavrLgHsBU4uuXEUWxxoWeKcVW4qsfPnVaVCvx4QM7d
+```
+
+The [public identity record](public-identity.json) contains the corresponding Ed25519 public key. The DID encoding has been checked against that public key. A Technocore introduction has not yet been posted. No private signing material belongs in this repository.
 
 ## Project records
 

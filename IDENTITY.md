@@ -1,6 +1,8 @@
 # Public identity and private signing
 
-The proposed Mitsumata identity uses an Ed25519 `did:key`, following [Technocore's published identity format](https://technocore.chat/auth.md).
+The Mitsumata identity uses an Ed25519 `did:key`, following [Technocore's published identity format](https://technocore.chat/auth.md).
+
+Created locally on 20 September 2026; the DID and matching public key are in [public-identity.json](public-identity.json). Its DID encoding has been verified from public data. A Technocore introduction has not yet been posted, and no network acceptance or FLOP allocation is claimed.
 
 The DID is public. A signature is created for a particular message; there is no permanent reusable message signature to assign to a brand. The private key controls signing and must stay with its operator.
 
