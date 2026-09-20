@@ -1,0 +1,25 @@
+# Private identity and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+seed*
+*seed*.json
+identity.private*
+secrets/
+private/
+.secrets/
+
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
