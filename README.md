@@ -1,32 +1,37 @@
 # Mitsumata FLOP Agent
 
-Mitsumata's independent research and agent-development project for the FLOP ecosystem.
+Independent research and agent development by [Mitsumata](https://mitsumata.io), maintained as [mitsumata-io](https://github.com/mitsumata-io).
 
-We are exploring useful agent workflows, verifiable outputs and compute economics. This repository starts with the project's scope and evidence standards. A deployed agent and commercial product are not yet available.
+## Operating priorities
 
-Company: [Mitsumata](https://mitsumata.io).
+1. Do no harm.
+2. Mitigate risks.
+3. Maximize net profit from FLOP, subject to the first two priorities.
 
-## Starting point
+This repository contains a reproducible, offline economics tool and a participation evidence framework. It is not a deployed FLOP node, inference agent, wallet, or claim service. No airdrop allocation or upstream contribution credit is verified.
 
-- Build one useful workflow with a clear user and measurable result.
-- Record the source versions and assumptions behind experiments.
-- Publish reproducible findings and distinguish proposed protocol behavior from demonstrated capabilities.
-- Evaluate customer usefulness separately from possible FLOP incentives.
+## Run the research tool
 
-## Identity
+Python 3.10 or later, standard library only. No account, wallet, signing key, network connection, or package installation is needed.
 
-Mitsumata's dedicated Technocore signing identity was created locally on 20 September 2026:
-
-```text
-did:key:z6MkuyavrLgHsBU4uuXEUWxxoWeKcVW4qsfPnVaVCvx4QM7d
+```console
+python economics.py --cash-cost 100 --hours 4 --hourly-cost 25 --tokens 0
+python economics.py --cash-cost 100 --hours 4 --hourly-cost 25 --tokens 1000 --liquid-fraction 0.25 --realization-probability 0.5 --token-price 2
+python -m unittest -v
+python verify_project.py
 ```
 
-The [public identity record](public-identity.json) contains the corresponding Ed25519 public key. The DID encoding has been checked against that public key. A Technocore introduction has not yet been posted. No private signing material belongs in this repository.
+The second command is an illustrative scenario, not a FLOP forecast. It yields a total cost of 200, probability-weighted liquid tokens of 125, a break-even price of 1.60, and scenario net profit of 50 in the chosen currency. At zero token realization, the same work loses its full cost. Unverified allocations default to zero in the tool.
 
-## Project records
+## Participation and attribution
 
+- [Current requirements and gaps](PARTICIPATION.md)
+- [Contribution evidence and submission process](CONTRIBUTIONS.md)
+- [Project context and decision rules](PROJECT_CONTEXT.md)
 - [Current status](STATUS.md)
-- [Official sources](SOURCES.md)
-- [Identity handling](IDENTITY.md)
+- [Official source register](SOURCES.md)
+- [Security policy](SECURITY.md)
 
-This project is independently operated by Mitsumata and is not an official FLOP Labs repository. Nothing here establishes token eligibility, an allocation or a promised return.
+The pre-existing [public identity record](public-identity.json) is retained unchanged. A DID is a public identifier; its corresponding private key is kept outside this repository. An identity record or GitHub commit is not proof of FLOP reward eligibility.
+
+The project is a clean Mitsumata start. The retired EvolPolf history is preserved separately, and no prior contribution credit is imported or duplicated.

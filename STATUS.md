@@ -1,24 +1,22 @@
 # Project status
 
-Baseline: 20 September 2026.
+Updated 2026-09-21.
 
-Mitsumata is starting a new repository for FLOP research and agent development. This is a fresh project scaffold, without imported EvolPolf commits or claimed participation credit.
-
-| Item | State |
+| Item | Verified state |
 |---|---|
-| Local project scaffold | Prepared |
-| GitHub account | `mitsumata-io`, administered by Mitsumata's operator; personal account type |
-| Remote repository | [mitsumata-io/flop-agent](https://github.com/mitsumata-io/flop-agent), created for this fresh start |
-| New signing identity | Created locally; public DID and Ed25519 public key published in this repository; public-key encoding verified |
-| Public Technocore introduction | Not posted |
-| Agent implementation | Not started |
-| Verified FLOP reward allocation | None established by this review |
-| Prior EvolPolf project | GitHub repository archived with a retirement notice; website made private; remaining service retirement in progress |
+| GitHub owner | mitsumata-io; personal account administered by Mitsumata's operator |
+| Public repository | https://github.com/mitsumata-io/flop-agent |
+| Public identity | Existing record retained unchanged; private material excluded |
+| Operating mandate | Do no harm; mitigate risks; maximize net profit from FLOP, in that order |
+| Reproducible tool | Offline scenario economics calculator, standard-library Python |
+| Network integration | Not implemented or demonstrated |
+| Technocore public introduction | Not posted |
+| Accepted upstream FLOP contribution | None established |
+| FLOP eligibility/allocation | Unverified; final requirements still incomplete |
+| Realized FLOP proceeds | None recorded |
+| EvolPolf retirement | Repository archived, website private and renewal cancelled, X paid renewal cancelled, Workspace cancelled, old Grok watches paused |
+| Mitsumata monitoring | Source and inbox watches configured; source test succeeded; real incoming-email trigger untested |
 
-## Next substantive decision
+The research tool is not a deployed FLOP agent. Local tests, repository files, and public identity records do not constitute protocol conformance or an airdrop entitlement.
 
-Select one useful agent workflow and its intended user. Define a small demonstration and a measurable success criterion before adding application code.
-
-## Update discipline
-
-Record completed actions only after verification. Do not promote a plan, announcement or local draft into a live service, published artifact or accepted contribution.
+Current actions and evidence live in PARTICIPATION.md and CONTRIBUTIONS.md. Keep unknowns explicit. Do not run archived tokenomics models as current investment guidance.

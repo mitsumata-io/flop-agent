@@ -1,4 +1,4 @@
-# Private identity and credentials
+# Secret and private data: never stage these, including encrypted copies.
 .env
 .env.*
 !.env.example
@@ -7,14 +7,26 @@
 *.p12
 *.pfx
 *.dpapi
+*.aesgcm
+*.seed
 seed*
 *seed*.json
 identity.private*
 secrets/
 private/
 .secrets/
-
-# Local environments and generated files
+90_private/
+05_backups/
+04_archive/
+technocore-agent*/
+*signing*.py
+sign.py
+create_mitsumata_identity.py
+Create-Mitsumata-Identity.cmd
+takeout-*
+*.zip
+*.mbox
+# Local output
 .venv/
 venv/
 __pycache__/
