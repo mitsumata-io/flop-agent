@@ -1,9 +1,5 @@
 # Security policy
 
-## Ordered objectives
-
-Do no harm. Mitigate risks. Maximize net profit from FLOP within those constraints.
-
 This repository must contain public work only. Private keys, seeds, passphrases, encrypted key backups, signing utilities with local access, mail exports, private logs, customer data, and claim credentials are excluded. A public DID and public key are identifiers, not signing secrets; pre-existing public records remain unchanged.
 
 Agents must work from explicit public-file allowlists. Do not inspect sibling private directories, encrypted vaults, historical chat exports, or raw backups. Do not rely on .gitignore as a security boundary. Review the precise file list before every upload; never upload a parent project directory or run git add -A from it.

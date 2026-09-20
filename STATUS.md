@@ -7,7 +7,6 @@ Updated 2026-09-21.
 | GitHub owner | mitsumata-io; personal account administered by Mitsumata's operator |
 | Public repository | https://github.com/mitsumata-io/flop-agent |
 | Public identity | Existing record retained unchanged; private material excluded |
-| Operating mandate | Do no harm; mitigate risks; maximize net profit from FLOP, in that order |
 | Reproducible tool | Offline scenario economics calculator, standard-library Python |
 | Network integration | Not implemented or demonstrated |
 | Technocore public introduction | Not posted |

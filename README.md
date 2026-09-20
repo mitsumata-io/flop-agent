@@ -2,12 +2,6 @@
 
 Independent research and agent development by [Mitsumata](https://mitsumata.io), maintained as [mitsumata-io](https://github.com/mitsumata-io).
 
-## Operating priorities
-
-1. Do no harm.
-2. Mitigate risks.
-3. Maximize net profit from FLOP, subject to the first two priorities.
-
 This repository contains a reproducible, offline economics tool and a participation evidence framework. It is not a deployed FLOP node, inference agent, wallet, or claim service. No airdrop allocation or upstream contribution credit is verified.
 
 ## Run the research tool
