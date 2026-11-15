@@ -24,6 +24,7 @@ The second command is an illustrative scenario, not a FLOP forecast. It yields a
 - [Project context and decision rules](PROJECT_CONTEXT.md)
 - [Current status](STATUS.md)
 - [Official source register](SOURCES.md)
+- [Testnet target announcement (2026-11-15)](TESTNET_UPDATE_2026-11-15.md)
 - [Security policy](SECURITY.md)
 
 The pre-existing [public identity record](public-identity.json) is retained unchanged. A DID is a public identifier; its corresponding private key is kept outside this repository. An identity record or GitHub commit is not proof of FLOP reward eligibility.
