@@ -1,5 +1,7 @@
 # Mitsumata FLOP Agent
 
+**Team notice (2026-11-15):** Public testnet target announced for 24 November 2026 (tentative / subject to readiness). Full details, primary sources, draft pools, roles, and caveats are in [TESTNET_UPDATE_2026-11-15.md](TESTNET_UPDATE_2026-11-15.md). Commit: `ab7faffdaabd43ec399051e01b0657efb77d2a53`. Preparation only; no allocation or proceeds verified. Unverified token proceeds = 0.
+
 Independent research and agent development by [Mitsumata](https://mitsumata.io), maintained as [mitsumata-io](https://github.com/mitsumata-io).
 
 This repository contains a reproducible, offline economics tool and a participation evidence framework. It is not a deployed FLOP node, inference agent, wallet, or claim service. No airdrop allocation or upstream contribution credit is verified.
